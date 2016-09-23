@@ -88,8 +88,6 @@ bool HelloWorld::init()
     sprite2->setAnchorPoint(Vec2(1,1));
     this->addChild(sprite2); //此时添加到的是世界坐标系，也就是OpenGL坐标系
     
-    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpr98A6IakpAKXGvShiGV+ry8jNTybuzGBX81sOZXUxtR3oxW07MD6xjDOrHpiCq0NpmabvUSStjp81LVRsxt9kru201w1zheWiBTXm0FoldkhkUUyWqdLgkKMktWE/udO4AK3/O2nb6SX91ClnF5Jl5QKtwiIvun9KZ4Ty5+0X7D6OF65KDiuSDM3NQx5Xb0RCmm3f0O8C2TYbYNUQsBQM6EKFjzCorHdWBB4PP6EfgOvm0YYvsuWF/OXQpLgiFKomY9gzlXT3HkWISabuQlaz2XGzFBot1lZS+NOC9eiZ27eCWAoWh3p3BI/45EP5ZcihzqeRlMlhNwRTnUgrO+l 525055857@qq.com
-    
     //将 sprite2 这个节点的坐标ccp(-5,-20) 转换为 sprite1节点 下的本地(节点)坐标系统的 位置坐标
 //    Point point1 = sprite1->convertToNodeSpace(sprite2->getPosition());
     
