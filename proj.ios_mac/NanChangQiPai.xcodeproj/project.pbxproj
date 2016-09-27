@@ -19,10 +19,6 @@
 		46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
 		46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* CloseSelected.png */; };
 		46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* CloseSelected.png */; };
-		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
-		46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -53,6 +49,13 @@
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		5131B81B1D9AB6B0008F6A53 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */; };
+		5131B81C1D9AB6B0008F6A53 /* LobbyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8191D9AB6B0008F6A53 /* LobbyScene.cpp */; };
+		5131B8201D9AB86A008F6A53 /* GameMananger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B81E1D9AB86A008F6A53 /* GameMananger.cpp */; };
+		5131B8231D9AB924008F6A53 /* GameServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8211D9AB924008F6A53 /* GameServer.cpp */; };
+		5131B8261D9AB956008F6A53 /* NanChangMahjongGameServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8241D9AB956008F6A53 /* NanChangMahjongGameServer.cpp */; };
+		5131B82B1D9AB9C2008F6A53 /* NanChangMahjongRoomScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8291D9AB9C2008F6A53 /* NanChangMahjongRoomScene.cpp */; };
+		5131B82E1D9AB9EE008F6A53 /* RoomScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B82C1D9AB9EE008F6A53 /* RoomScene.cpp */; };
 		5171100E1D899E820039495C /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5171100D1D899E820039495C /* backGround.jpg */; };
 		521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6219F0C34300D177D7 /* Default-667h@2x.png */; };
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
@@ -113,17 +116,13 @@
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* NanChangQiPai-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NanChangQiPai-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* 欢乐南昌棋牌.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "欢乐南昌棋牌.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
-		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
-		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
-		46880B8719C43A87006E1F66 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -156,6 +155,21 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		5131B8151D9AB6B0008F6A53 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5131B8171D9AB6B0008F6A53 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		5131B8191D9AB6B0008F6A53 /* LobbyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LobbyScene.cpp; sourceTree = "<group>"; };
+		5131B81A1D9AB6B0008F6A53 /* LobbyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyScene.h; sourceTree = "<group>"; };
+		5131B81E1D9AB86A008F6A53 /* GameMananger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameMananger.cpp; sourceTree = "<group>"; };
+		5131B81F1D9AB86A008F6A53 /* GameMananger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMananger.h; sourceTree = "<group>"; };
+		5131B8211D9AB924008F6A53 /* GameServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameServer.cpp; sourceTree = "<group>"; };
+		5131B8221D9AB924008F6A53 /* GameServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameServer.h; sourceTree = "<group>"; };
+		5131B8241D9AB956008F6A53 /* NanChangMahjongGameServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NanChangMahjongGameServer.cpp; sourceTree = "<group>"; };
+		5131B8251D9AB956008F6A53 /* NanChangMahjongGameServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NanChangMahjongGameServer.h; sourceTree = "<group>"; };
+		5131B8291D9AB9C2008F6A53 /* NanChangMahjongRoomScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NanChangMahjongRoomScene.cpp; sourceTree = "<group>"; };
+		5131B82A1D9AB9C2008F6A53 /* NanChangMahjongRoomScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NanChangMahjongRoomScene.h; sourceTree = "<group>"; };
+		5131B82C1D9AB9EE008F6A53 /* RoomScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomScene.cpp; sourceTree = "<group>"; };
+		5131B82D1D9AB9EE008F6A53 /* RoomScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomScene.h; sourceTree = "<group>"; };
 		5171100D1D899E820039495C /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
 		521A8E6219F0C34300D177D7 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -235,7 +249,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* NanChangQiPai-mobile.app */,
+				1D6058910D05DD3D006BFB54 /* 欢乐南昌棋牌.app */,
 				5087E76F17EB910900C73F5D /* NanChangQiPai-desktop.app */,
 			);
 			name = Products;
@@ -254,7 +268,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				46880B8319C43A87006E1F66 /* Classes */,
+				5131B8131D9AB6B0008F6A53 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -305,18 +319,6 @@
 			path = ../Resources;
 			sourceTree = "<group>";
 		};
-		46880B8319C43A87006E1F66 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
-				46880B8519C43A87006E1F66 /* AppDelegate.h */,
-				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
-				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
-			);
-			name = Classes;
-			path = ../Classes;
-			sourceTree = "<group>";
-		};
 		503AE0F517EB97AB00D1A890 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +366,69 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
+		5131B8131D9AB6B0008F6A53 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5131B8271D9AB9A4008F6A53 /* Room */,
+				5131B81D1D9AB735008F6A53 /* Mananger */,
+				5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */,
+				5131B8151D9AB6B0008F6A53 /* AppDelegate.h */,
+				5131B8161D9AB6B0008F6A53 /* Common */,
+				5131B8181D9AB6B0008F6A53 /* GameServer */,
+				5131B8191D9AB6B0008F6A53 /* LobbyScene.cpp */,
+				5131B81A1D9AB6B0008F6A53 /* LobbyScene.h */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		5131B8161D9AB6B0008F6A53 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5131B8171D9AB6B0008F6A53 /* CommonDefine.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5131B8181D9AB6B0008F6A53 /* GameServer */ = {
+			isa = PBXGroup;
+			children = (
+				5131B8211D9AB924008F6A53 /* GameServer.cpp */,
+				5131B8221D9AB924008F6A53 /* GameServer.h */,
+				5131B8241D9AB956008F6A53 /* NanChangMahjongGameServer.cpp */,
+				5131B8251D9AB956008F6A53 /* NanChangMahjongGameServer.h */,
+			);
+			path = GameServer;
+			sourceTree = "<group>";
+		};
+		5131B81D1D9AB735008F6A53 /* Mananger */ = {
+			isa = PBXGroup;
+			children = (
+				5131B81E1D9AB86A008F6A53 /* GameMananger.cpp */,
+				5131B81F1D9AB86A008F6A53 /* GameMananger.h */,
+			);
+			path = Mananger;
+			sourceTree = "<group>";
+		};
+		5131B8271D9AB9A4008F6A53 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				5131B8281D9AB9A4008F6A53 /* Scene */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		5131B8281D9AB9A4008F6A53 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5131B8291D9AB9C2008F6A53 /* NanChangMahjongRoomScene.cpp */,
+				5131B82A1D9AB9C2008F6A53 /* NanChangMahjongRoomScene.h */,
+				5131B82C1D9AB9EE008F6A53 /* RoomScene.cpp */,
+				5131B82D1D9AB9EE008F6A53 /* RoomScene.h */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -382,7 +447,7 @@
 			);
 			name = "NanChangQiPai-mobile";
 			productName = iphone;
-			productReference = 1D6058910D05DD3D006BFB54 /* NanChangQiPai-mobile.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* 欢乐南昌棋牌.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5087E73D17EB910900C73F5D /* NanChangQiPai-desktop */ = {
@@ -511,10 +576,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				5131B81B1D9AB6B0008F6A53 /* AppDelegate.cpp in Sources */,
+				5131B8261D9AB956008F6A53 /* NanChangMahjongGameServer.cpp in Sources */,
+				5131B81C1D9AB6B0008F6A53 /* LobbyScene.cpp in Sources */,
+				5131B8231D9AB924008F6A53 /* GameServer.cpp in Sources */,
+				5131B8201D9AB86A008F6A53 /* GameMananger.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				5131B82E1D9AB9EE008F6A53 /* RoomScene.cpp in Sources */,
+				5131B82B1D9AB9C2008F6A53 /* NanChangMahjongRoomScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,9 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +638,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_NAME = "欢乐南昌棋牌";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,6 +670,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_NAME = "欢乐南昌棋牌";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
