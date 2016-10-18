@@ -16,6 +16,10 @@ public:
     GameServer(GameMananger *_mananger);
     ~GameServer();
     
+//    virtual bool onInitGameServer();
+//    bool onBDGameStart();
+//    bool onBDG
+    
     GameMananger *m_mananger;
 };
 

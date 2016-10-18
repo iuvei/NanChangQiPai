@@ -22,6 +22,9 @@ GameMananger::GameMananger(int _GameType){
         default:
             break;
     }
+    int i = 1;
+    char *s = (char *) &i;
+    CCLOG("%d", *s);
 }
 
 GameMananger::~GameMananger()

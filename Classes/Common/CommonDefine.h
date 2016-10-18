@@ -15,5 +15,8 @@ enum{
 //    kGameType
 };
 
+#define BYTE unsigned char
+#define INT64 long long int
+
 
 #endif /* CommonDefine_h */

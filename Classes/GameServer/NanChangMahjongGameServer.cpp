@@ -7,8 +7,3 @@
 //
 
 #include "NanChangMahjongGameServer.h"
-
-NanChangMahjongGameServer::NanChangMahjongGameServer(GameMananger *_mananger):GameServer::GameServer(_mananger)
-{
-    
-}

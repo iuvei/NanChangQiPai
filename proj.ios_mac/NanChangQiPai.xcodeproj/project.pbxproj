@@ -49,6 +49,8 @@
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		511D60FF1DAE6C6E00403C18 /* NetPacketBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 511D60FD1DAE6C6E00403C18 /* NetPacketBase.cpp */; };
+		511D61021DAE736E00403C18 /* NetPacketWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 511D61001DAE736E00403C18 /* NetPacketWriter.cpp */; };
 		5131B81B1D9AB6B0008F6A53 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */; };
 		5131B81C1D9AB6B0008F6A53 /* LobbyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8191D9AB6B0008F6A53 /* LobbyScene.cpp */; };
 		5131B8201D9AB86A008F6A53 /* GameMananger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B81E1D9AB86A008F6A53 /* GameMananger.cpp */; };
@@ -155,6 +157,10 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		511D60FD1DAE6C6E00403C18 /* NetPacketBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetPacketBase.cpp; sourceTree = "<group>"; };
+		511D60FE1DAE6C6E00403C18 /* NetPacketBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NetPacketBase.hpp; sourceTree = "<group>"; };
+		511D61001DAE736E00403C18 /* NetPacketWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetPacketWriter.cpp; sourceTree = "<group>"; };
+		511D61011DAE736E00403C18 /* NetPacketWriter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NetPacketWriter.hpp; sourceTree = "<group>"; };
 		5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		5131B8151D9AB6B0008F6A53 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5131B8171D9AB6B0008F6A53 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
@@ -366,17 +372,29 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
+		511D60FC1DAE6BFE00403C18 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				511D60FD1DAE6C6E00403C18 /* NetPacketBase.cpp */,
+				511D60FE1DAE6C6E00403C18 /* NetPacketBase.hpp */,
+				511D61001DAE736E00403C18 /* NetPacketWriter.cpp */,
+				511D61011DAE736E00403C18 /* NetPacketWriter.hpp */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		5131B8131D9AB6B0008F6A53 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				511D60FC1DAE6BFE00403C18 /* Network */,
+				5131B8161D9AB6B0008F6A53 /* Common */,
 				5131B8271D9AB9A4008F6A53 /* Room */,
 				5131B81D1D9AB735008F6A53 /* Mananger */,
-				5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */,
-				5131B8151D9AB6B0008F6A53 /* AppDelegate.h */,
-				5131B8161D9AB6B0008F6A53 /* Common */,
 				5131B8181D9AB6B0008F6A53 /* GameServer */,
 				5131B8191D9AB6B0008F6A53 /* LobbyScene.cpp */,
 				5131B81A1D9AB6B0008F6A53 /* LobbyScene.h */,
+				5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */,
+				5131B8151D9AB6B0008F6A53 /* AppDelegate.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -576,6 +594,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511D61021DAE736E00403C18 /* NetPacketWriter.cpp in Sources */,
 				5131B81B1D9AB6B0008F6A53 /* AppDelegate.cpp in Sources */,
 				5131B8261D9AB956008F6A53 /* NanChangMahjongGameServer.cpp in Sources */,
 				5131B81C1D9AB6B0008F6A53 /* LobbyScene.cpp in Sources */,
@@ -585,6 +604,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				5131B82E1D9AB9EE008F6A53 /* RoomScene.cpp in Sources */,
 				5131B82B1D9AB9C2008F6A53 /* NanChangMahjongRoomScene.cpp in Sources */,
+				511D60FF1DAE6C6E00403C18 /* NetPacketBase.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

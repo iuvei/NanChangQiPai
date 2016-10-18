@@ -14,7 +14,11 @@
 class NanChangMahjongGameServer :public GameServer{
     
 public:
-    NanChangMahjongGameServer(GameMananger *_mananger);
+    NanChangMahjongGameServer(GameMananger *_mananger):GameServer(_mananger){
+        m_mananger = _mananger;
+    };
+    
+    
 };
 
 #endif /* NanChangMahjongGameServer_hpp */
