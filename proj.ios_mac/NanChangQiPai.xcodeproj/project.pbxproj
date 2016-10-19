@@ -50,7 +50,6 @@
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
 		511D60FF1DAE6C6E00403C18 /* NetPacketBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 511D60FD1DAE6C6E00403C18 /* NetPacketBase.cpp */; };
-		511D61021DAE736E00403C18 /* NetPacketWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 511D61001DAE736E00403C18 /* NetPacketWriter.cpp */; };
 		5131B81B1D9AB6B0008F6A53 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */; };
 		5131B81C1D9AB6B0008F6A53 /* LobbyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8191D9AB6B0008F6A53 /* LobbyScene.cpp */; };
 		5131B8201D9AB86A008F6A53 /* GameMananger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B81E1D9AB86A008F6A53 /* GameMananger.cpp */; };
@@ -159,8 +158,6 @@
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
 		511D60FD1DAE6C6E00403C18 /* NetPacketBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetPacketBase.cpp; sourceTree = "<group>"; };
 		511D60FE1DAE6C6E00403C18 /* NetPacketBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NetPacketBase.hpp; sourceTree = "<group>"; };
-		511D61001DAE736E00403C18 /* NetPacketWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetPacketWriter.cpp; sourceTree = "<group>"; };
-		511D61011DAE736E00403C18 /* NetPacketWriter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NetPacketWriter.hpp; sourceTree = "<group>"; };
 		5131B8141D9AB6B0008F6A53 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		5131B8151D9AB6B0008F6A53 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5131B8171D9AB6B0008F6A53 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
@@ -377,8 +374,6 @@
 			children = (
 				511D60FD1DAE6C6E00403C18 /* NetPacketBase.cpp */,
 				511D60FE1DAE6C6E00403C18 /* NetPacketBase.hpp */,
-				511D61001DAE736E00403C18 /* NetPacketWriter.cpp */,
-				511D61011DAE736E00403C18 /* NetPacketWriter.hpp */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -594,7 +589,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				511D61021DAE736E00403C18 /* NetPacketWriter.cpp in Sources */,
 				5131B81B1D9AB6B0008F6A53 /* AppDelegate.cpp in Sources */,
 				5131B8261D9AB956008F6A53 /* NanChangMahjongGameServer.cpp in Sources */,
 				5131B81C1D9AB6B0008F6A53 /* LobbyScene.cpp in Sources */,
