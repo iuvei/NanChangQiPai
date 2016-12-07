@@ -81,6 +81,7 @@ bool NetPacketBase::onRead(char *pout, int len)
     m_curPacketLen += len;
     return true;
 }
+
 BYTE NetPacketBase::onReadByte()
 {
     BYTE value = -1;
@@ -90,21 +91,38 @@ BYTE NetPacketBase::onReadByte()
 
 int NetPacketBase::onReadInt()
 {
-    
+    int value = -1;
+    onRead((char *)&value, sizeof(int));
+    return value;
 }
 
 INT64 NetPacketBase::onReadInt64()
 {
-    
+    int value = -1;
+    onRead((char *)&value, sizeof(INT64));
+    return value;
 }
 
 string NetPacketBase::onReadString()
 {
-    
+    char *value = onReadCharStr();
+    return value == NULL ? "" : value;
 }
 
 char* NetPacketBase::onReadCharStr()
 {
-    
+    int strlen = onReadInt();
+    if(strlen <= 0)
+        return NULL;
+    return onReadPoint(strlen);
+}
+
+char *NetPacketBase::onReadPoint(int len)
+{
+    if(len + m_curPacketLen > m_toalPacketLen)
+        return NULL;
+    char *p = &m_packetStr[m_curPacketLen];
+    m_curPacketLen += len;
+    return p;
 }
 

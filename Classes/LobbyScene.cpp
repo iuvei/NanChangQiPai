@@ -27,6 +27,8 @@ bool LobbyScene::init()
     {
         return false;
     }
+    // 这里开始连接网络
+    
     
     return this->onLoadView();
 }

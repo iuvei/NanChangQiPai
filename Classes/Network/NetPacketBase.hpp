@@ -37,6 +37,7 @@ public:
     INT64  onReadInt64();
     string onReadString();
     char* onReadCharStr();
+    char *onReadPoint(int len);
     
     
     int m_toalPacketLen;

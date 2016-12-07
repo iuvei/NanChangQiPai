@@ -58,6 +58,7 @@
 		5131B82B1D9AB9C2008F6A53 /* NanChangMahjongRoomScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B8291D9AB9C2008F6A53 /* NanChangMahjongRoomScene.cpp */; };
 		5131B82E1D9AB9EE008F6A53 /* RoomScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5131B82C1D9AB9EE008F6A53 /* RoomScene.cpp */; };
 		5171100E1D899E820039495C /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5171100D1D899E820039495C /* backGround.jpg */; };
+		5183DD1C1DF704C800815333 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5183DD1B1DF704C800815333 /* CFNetwork.framework */; };
 		521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6219F0C34300D177D7 /* Default-667h@2x.png */; };
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
@@ -174,6 +175,7 @@
 		5131B82C1D9AB9EE008F6A53 /* RoomScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomScene.cpp; sourceTree = "<group>"; };
 		5131B82D1D9AB9EE008F6A53 /* RoomScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomScene.h; sourceTree = "<group>"; };
 		5171100D1D899E820039495C /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
+		5183DD1B1DF704C800815333 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		521A8E6219F0C34300D177D7 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5183DD1C1DF704C800815333 /* CFNetwork.framework in Frameworks */,
 				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
@@ -285,6 +288,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5183DD1B1DF704C800815333 /* CFNetwork.framework */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
@@ -381,6 +385,7 @@
 		5131B8131D9AB6B0008F6A53 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5183DD1E1DF7097800815333 /* 第三方 */,
 				511D60FC1DAE6BFE00403C18 /* Network */,
 				5131B8161D9AB6B0008F6A53 /* Common */,
 				5131B8271D9AB9A4008F6A53 /* Room */,
@@ -440,6 +445,13 @@
 				5131B82D1D9AB9EE008F6A53 /* RoomScene.h */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		5183DD1E1DF7097800815333 /* 第三方 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "第三方";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

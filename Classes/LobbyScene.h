@@ -5,6 +5,8 @@
 #include "ui/CocosGUI.h"
 #include "base/CCMap.h"
 
+#import "GCDAsyncSocket.h"
+
 USING_NS_CC;
 using namespace ui;
 
@@ -22,6 +24,8 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(LobbyScene);
+    
+//    GCDAsyncSocket *asynSocket;
 };
 
 #endif // __HELLOWORLD_SCENE_H__
